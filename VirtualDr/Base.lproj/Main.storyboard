@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ES-Sq-obm">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                            </webView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wsj-3k-sSR" customClass="NJKWebViewProgressView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="1"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="pJn-Mb-cOA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2ES-Sq-obm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="C5v-Fa-Lfz"/>
+                            <constraint firstAttribute="trailing" secondItem="2ES-Sq-obm" secondAttribute="trailing" id="HyK-L0-fSz"/>
+                            <constraint firstItem="Wsj-3k-sSR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="M8V-1L-2JS"/>
+                            <constraint firstItem="Wsj-3k-sSR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RId-dd-YZy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2ES-Sq-obm" secondAttribute="bottom" id="SdN-Zo-Egh"/>
+                            <constraint firstItem="2ES-Sq-obm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="XgY-ba-3P6"/>
+                            <constraint firstItem="Wsj-3k-sSR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mIK-ZG-0oX"/>
+                            <constraint firstAttribute="trailing" secondItem="Wsj-3k-sSR" secondAttribute="trailing" id="qFQ-0Z-C7A"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jt7-TI-3cr"/>
+                    <connections>
+                        <outlet property="progressView" destination="Wsj-3k-sSR" id="OUV-NK-ndo"/>
+                        <outlet property="webView" destination="2ES-Sq-obm" id="hBd-6q-2Ul"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1467" y="405"/>
+        </scene>
+    </scenes>
+</document>
