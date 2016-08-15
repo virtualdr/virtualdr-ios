@@ -52,6 +52,8 @@
 		CE7DBCC91D23F3D00079A296 /* 1242x2208(1).png in Resources */ = {isa = PBXBuildFile; fileRef = CE7DBCC11D23F3D00079A296 /* 1242x2208(1).png */; };
 		CE7DBCCA1D23F3D00079A296 /* 1536x2048(1).png in Resources */ = {isa = PBXBuildFile; fileRef = CE7DBCC21D23F3D00079A296 /* 1536x2048(1).png */; };
 		CEF363911D23F8020098868F /* 1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF363901D23F8020098868F /* 1536x2048.png */; };
+		FD9835E81D6274130058F624 /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = FD9835E71D6274130058F624 /* Icon-167.png */; };
+		FD9835EA1D6277780058F624 /* app-icon(167x167).png in Resources */ = {isa = PBXBuildFile; fileRef = FD9835E91D6277780058F624 /* app-icon(167x167).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +109,8 @@
 		CE7DBCC11D23F3D00079A296 /* 1242x2208(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1242x2208(1).png"; sourceTree = "<group>"; };
 		CE7DBCC21D23F3D00079A296 /* 1536x2048(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1536x2048(1).png"; sourceTree = "<group>"; };
 		CEF363901D23F8020098868F /* 1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1536x2048.png; sourceTree = "<group>"; };
+		FD9835E71D6274130058F624 /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
+		FD9835E91D6277780058F624 /* app-icon(167x167).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon(167x167).png"; path = "../../../../Downloads/app-icon(167x167).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 		CE6136A71D353D92000A17CD /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				FD9835E91D6277780058F624 /* app-icon(167x167).png */,
+				FD9835E71D6274130058F624 /* Icon-167.png */,
 				CE6136A81D353D92000A17CD /* Icon-60.png */,
 				CE6136A91D353D92000A17CD /* Icon-60@2x.png */,
 				CE6136AA1D353D92000A17CD /* Icon-60@3x.png */,
@@ -277,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6136CA1D353D92000A17CD /* Icon-Small@3x.png in Resources */,
+				FD9835E81D6274130058F624 /* Icon-167.png in Resources */,
 				CE6136D01D353D92000A17CD /* iTunesArtwork in Resources */,
 				CE7DBCCA1D23F3D00079A296 /* 1536x2048(1).png in Resources */,
 				CE4C74941D267D8100045D9C /* 640x1960.png in Resources */,
@@ -299,6 +306,7 @@
 				CE6136D11D353D92000A17CD /* iTunesArtwork@2x in Resources */,
 				CE6136BD1D353D92000A17CD /* Icon-60.png in Resources */,
 				CE6136CD1D353D92000A17CD /* Icon-Spotlight-40@3x.png in Resources */,
+				FD9835EA1D6277780058F624 /* app-icon(167x167).png in Resources */,
 				CE7DBCC71D23F3D00079A296 /* 750x1334(1).png in Resources */,
 				CE4C74901D267D8100045D9C /* 750x1334.png in Resources */,
 				CE6136CE1D353D92000A17CD /* Icon.png in Resources */,
